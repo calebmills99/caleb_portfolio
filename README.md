@@ -1,8 +1,6 @@
 # Caleb Mills Portfolio
 
-A personal portfolio showcasing documentary direction, technical systems, educational architecture, and multilingual storytelling.
-
-## Development
+  # Caleb Mills Portfolio
 
 Install dependencies:
 
@@ -10,34 +8,13 @@ Install dependencies:
 npm install
 ```
 
-Start the development server:
+  Run `npm run dev` to start the development server.
 
-```bash
-npm run dev
-```
+  Run `npm run build` to create a production build in `dist/`.
 
-## Production Build
+  ## Deploying to GitHub Pages
 
-Build the site for production:
+  This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds and deploys the site to GitHub Pages on pushes to `main`.
 
-```bash
-npm run build
-```
-
-The build output is placed in the `dist` directory.
-
-## Deployment
-
-This project is deployed to GitHub Pages using GitHub Actions.
-
-### Automatic Deployment
-
-Pushes to the `main` branch automatically trigger a deployment via the `.github/workflows/deploy.yml` workflow.
-
-### Enabling GitHub Pages
-
-To enable GitHub Pages for this repository:
-
-1. Go to **Settings** → **Pages**
-2. Under **Source**, select **GitHub Actions**
-3. The site will be available at `https://calebmills99.github.io/caleb_portfolio/`
+  After merging the workflow, enable **Settings → Pages → Source: GitHub Actions** in the repository settings.
+  
