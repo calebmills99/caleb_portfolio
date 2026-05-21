@@ -1,11 +1,43 @@
+# Caleb Mills Portfolio
 
-  # Notion Integration
+A personal portfolio showcasing documentary direction, technical systems, educational architecture, and multilingual storytelling.
 
-  This is a code bundle for Notion Integration. The original project is available at https://www.figma.com/design/G2mKPb5sYSDUqA7xlftWPe/Notion-Integration.
+## Development
 
-  ## Running the code
+Install dependencies:
 
-  Run `npm i` to install the dependencies.
+```bash
+npm install
+```
 
-  Run `npm run dev` to start the development server.
-  
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Production Build
+
+Build the site for production:
+
+```bash
+npm run build
+```
+
+The build output is placed in the `dist` directory.
+
+## Deployment
+
+This project is deployed to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+Pushes to the `main` branch automatically trigger a deployment via the `.github/workflows/deploy.yml` workflow.
+
+### Enabling GitHub Pages
+
+To enable GitHub Pages for this repository:
+
+1. Go to **Settings** → **Pages**
+2. Under **Source**, select **GitHub Actions**
+3. The site will be available at `https://calebmills99.github.io/caleb_portfolio/`
