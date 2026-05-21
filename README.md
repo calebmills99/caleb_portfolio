@@ -1,9 +1,12 @@
+# Caleb Mills Portfolio
 
   # Caleb Mills Portfolio
 
-  ## Running the code
+Install dependencies:
 
-  Run `npm i` to install the dependencies.
+```bash
+npm install
+```
 
   Run `npm run dev` to start the development server.
 
